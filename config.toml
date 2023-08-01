@@ -1,0 +1,86 @@
+baseURL = "https://faultpoint.com"
+languageCode = "en-us"
+title = "FaultPoint"
+theme = 'risotto'
+author = "elbee"
+paginate = 3
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+ignoreErrors = ["error-remote-getjson"]
+sectionPagesMenu = "main"
+copyright = "Hydration is important to me, feel free to <a href='https://bmc.link/elbee1'>buy me a coffee</a>!"
+
+[params]
+noindex = false
+
+[params.theme]
+palette = "tokyo-night-dark"
+
+[params.about]
+title = "FaultPoint"
+description = "FaultPoint.com is a personal blog maintained by elbee."
+
+[[params.socialLinks]]
+icon = "fa-brands fa-github"
+title = "GitHub"
+url = "https://github.com/elbee-cyber"
+
+[[params.socialLinks]]
+icon = "fa-solid fa-envelope"
+title = "Email"
+url = "mailto:elbee_ez@protonmail.com"
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+# For hugo >= 0.60.0, enable inline HTML
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup]
+
+  # Table of contents
+  # Add toc = true to content front matter to enable
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel   = 3
+    ordered    = true
+
+[privacy]
+
+  [privacy.vimeo]
+    disabled = false
+    simple = true
+
+  [privacy.twitter]
+    disabled = false
+    enableDNT = true
+    simple = true
+
+  [privacy.instagram]
+    disabled = false
+    simple = true
+
+  [privacy.youtube]
+    disabled = false
+    privacyEnhanced = true
+
+[services]
+
+  [services.instagram]
+    disableInlineCSS = true
+
+  [services.twitter]
+    disableInlineCSS = "true"
+
+[[params.socialLinks]]
+icon = "fa-brands fa-twitter"
+title = "Twitter"
+url = "https://twitter.com/elbee_ez"
+
+[[params.socialLinks]]
+icon = "fa-brands fa-linkedin"
+title = "LinkedIn"
+url = "https://www.linkedin.com/in/dylan-knoff"
