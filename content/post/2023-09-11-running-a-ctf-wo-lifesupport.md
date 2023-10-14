@@ -4,7 +4,7 @@ title = "Running a CTF that Outlasts a Bag of Popcorn"
 date = "2023-09-11"
 description = "Tales and experiences from running PatriotCTF 2023."
 tags = [
-    "infrastructure","challenge creation","docker"
+    "infrastructure","aws","docker"
 ]
 +++
 
