@@ -44,7 +44,6 @@ def free(i):
     global index
     io.sendlineafter('>> ', '4')
     io.sendlineafter('>> ', str(i))
-    index -= 1
 
 def main():
 
