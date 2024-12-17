@@ -14,7 +14,8 @@ copyright = "Hydration is important to me, feel free to <a href='https://bmc.lin
 noindex = false
 
 [params.theme]
-palette = "tokyo-night-dark"
+palette = "tender"
+#palette = "tokyo-night-dark"
 
 [params.about]
 title = "FaultPoint"
