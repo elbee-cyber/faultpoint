@@ -63,7 +63,7 @@ jobs:
       - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v3.0.1
         with:
-          path: ./content
+          path: _site/
 
   # Deployment job
   deploy:
